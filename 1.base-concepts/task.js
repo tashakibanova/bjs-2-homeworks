@@ -5,7 +5,7 @@ function solveEquation(a, b, c) {
   if (discriminant < 0) {
     arr == 0;
   } else if (discriminant == 0) {
-    arr = -b / (2*a);
+    arr.push(-b / (2*a));
   } else if (discriminant > 0) {
     arr.push((-b + Math.sqrt(discriminant) )/(2*a));
     arr.push((-b - Math.sqrt(discriminant) )/(2*a));
